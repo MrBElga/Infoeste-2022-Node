@@ -19,3 +19,11 @@ function getNome(pessoaJson){
 
 let novaListaPessoas = listaJson.map(getNome)
 console.log(novaListaPessoas);
+
+//assync await
+function algumaCoisa(){
+    console.log("hello");
+}
+setTimeout(algumaCoisa,"10000");
+
+console.log("ok");
