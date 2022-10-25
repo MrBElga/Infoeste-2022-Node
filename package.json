@@ -1,0 +1,19 @@
+{
+  "name": "curso2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBElga/Infoeste-CursoNode.git"
+  },
+  "author": "MrBElga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrBElga/Infoeste-CursoNode/issues"
+  },
+  "homepage": "https://github.com/MrBElga/Infoeste-CursoNode#readme"
+}
