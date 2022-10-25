@@ -43,13 +43,19 @@
 // ctrl c u
 
 //JSON
-let obj ={
-    nome: "Nome",
-    sobrenome: "Sobrenome",
-    idade: 25
-};
+// let obj ={
+//     nome: "Nome",
+//     sobrenome: "Sobrenome",
+//     idade: 25
+// };
 
-let obj_text = JSON.stringify(obj);
-console.log(JSON.stringify(obj_text));
-let obj_obj = JSON.parse(obj_text);
-console.log(obj_obj);
+// let obj_text = JSON.stringify(obj);
+// console.log(JSON.stringify(obj_text));
+// let obj_obj = JSON.parse(obj_text);
+// console.log(obj_obj);
+
+// console.log("Nome: ",obj_obj.nome,"Sobrenome: ",obj_obj.sobrenome,"Idade: ",obj_obj.idade);
+
+//Arrays
+
+let
