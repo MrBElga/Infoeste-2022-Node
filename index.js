@@ -65,7 +65,7 @@
 // console.log(Array2);
 
 // function filtrarArray(){
-//    return (typeof elem === "number");
+//    return {typeof elem === "number"};
 // };
 // console.log(Array2.filter(filtrarArray));
 
@@ -96,5 +96,12 @@ let ArrayJson = [
         Idade: 15
     }
 ];
+function getNome(pessoaJson){
+    return { Nome: pessoaJson.Nome};
+}
+
+let novaLista = ArrayJson.map(getNome);
+console.log(novaLista);
+
 
 //map
