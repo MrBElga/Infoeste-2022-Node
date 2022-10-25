@@ -1,4 +1,4 @@
 //import modules
 
-import add from "./modulos/add";
-import { sub } from "./modulos/sub";
+import add from "./modulos/add.js";
+import { sub } from "./modulos/sub.js";
