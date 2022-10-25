@@ -40,7 +40,7 @@
 // console.log(nome+" "+sobrenome);
 // console.log(nome.toUpperCase(),sobrenome.toUpperCase());
 // ctrl c k
-// ctrl c u
+// ctrl k u
 
 //JSON
 // let obj ={
@@ -64,13 +64,24 @@
 // console.log(Array);
 // console.log(Array2);
 
-//boolean
-let boolT = true;
-let bollF = false;
+// function filtrarArray(){
+//    return (typeof elem === "number");
+// };
+// console.log(Array2.filter(filtrarArray));
 
-console.log(0 == boolT);
-console.log(1 == bollF);
-console.log({} == true);
-console.log("" == true);
-console.log(null == true);
-console.log(undefined == true);
+//boolean
+// let boolT = true;
+// let bollF = false;
+
+// console.log(0 == boolT);
+// console.log(1 == bollF);
+// console.log({} == true);
+// console.log("" == true);
+// console.log(null == true);
+// console.log(undefined == true);
+
+//Array JSON
+
+
+
+//map
