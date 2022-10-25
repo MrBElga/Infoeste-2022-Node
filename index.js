@@ -49,4 +49,7 @@ let obj ={
     idade: 25
 };
 
-console.log(JSON.stringify(obj));
+let obj_text = JSON.stringify(obj);
+console.log(JSON.stringify(obj_text));
+let obj_obj = JSON.parse(obj_text);
+console.log(obj_obj);
