@@ -1,15 +1,14 @@
-//var, let e const 
+// Var, Let e Const
 
 // const x = 10;
-// let   y = 20;
+// let y = 20;
 
 // function hello(){
 //     let y = 5;
 //     console.log(y);
 
-//     if(y==5)
-//     {
-//         let y=10;
+//     if(y === 5){
+//         let y = 1;
 //         console.log(y);
 //     }
 // }
@@ -18,90 +17,102 @@
 // console.log(x);
 // console.log(y);
 
-// //Number
-
+// Number
 // let a = 20;
-// let b = 2.5;
+// let b = 10;
 // let c = -2.5;
 
-// console.log(typeof a);
-// console.log(typeof b);
-// console.log(typeof c);
-// console.log(a+b);
-// console.log(a/b+c);
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
 
-//String
 
-// let nome = "Nome";
-// let sobrenome = "Sobrenome";
+// String
+// let nome = "Fulano";
+// let sobrenome = "Ciclano";
 
-// console.log(typeof nome);
-// console.log(typeof sobrenome);
-// console.log(nome+" "+sobrenome);
-// console.log(nome.toUpperCase(),sobrenome.toUpperCase());
-// ctrl c k
-// ctrl k u
+// console.log("Nome:"+ nome + " Sobrenome:" + sobrenome);
+// console.log(`Nome: ${nome.toLowerCase()} Sobrenome: ${sobrenome.toLowerCase()} Idade: ${x}`);
 
-//JSON
-// let obj ={
-//     nome: "Nome",
-//     sobrenome: "Sobrenome",
+// JSON
+// let obj = {
+//     nome: "Fulano",
+//     sobrenome: "X",
 //     idade: 25
 // };
 
 // let obj_text = JSON.stringify(obj);
-// console.log(JSON.stringify(obj_text));
+// console.log(obj_text);
 // let obj_obj = JSON.parse(obj_text);
-// console.log(obj_obj);
+// console.log(obj_obj)
 
-// console.log("Nome: ",obj_obj.nome,"Sobrenome: ",obj_obj.sobrenome,"Idade: ",obj_obj.idade);
+// console.log(`Nome: ${obj_obj}`);
 
-//Arrays
+// Arrays
 
-// let Array  = [1,2,3,4,5];
-// let Array2 = ["teste1",6,"teste2",7,"teste3",true];
-
-// console.log(Array);
-// console.log(Array2);
-
-// function filtrarArray(){
-//    return {typeof elem === "number"};
-// };
-// console.log(Array2.filter(filtrarArray));
-
-//boolean
-// let boolT = true;
-// let bollF = false;
-
-// console.log(0 == boolT);
-// console.log(1 == bollF);
-// console.log({} == true);
-// console.log("" == true);
-// console.log(null == true);
-// console.log(undefined == true);
-
-//Array JSON
-
-let ArrayJson = [
+let listaJson = [
     {
-        Nome: "Kleber",
-        Idade: 69
+        nome: "fulano 1",
+        idade: 30
     },
     {
-        Nome: "João",
-        Idade: 35
+        nome: "fulano 2",
+        idade: 25
     },
     {
-        Nome: "Cris",
-        Idade: 15
+        nome: "fulano 3",
+        idade: 35
     }
 ];
+
 function getNome(pessoaJson){
-    return { Nome: pessoaJson.Nome};
+    return { nome: pessoaJson.nome, idade: pessoaJson.idade };
 }
 
-let novaLista = ArrayJson.map(getNome);
-console.log(novaLista);
+let novaListaPessoas = listaJson.map(getNome)
+console.log(novaListaPessoas);
 
 
-//map
+
+// let lista = [1, 2, 3, 4, 5];
+// let lista2 = ["1", 2, "3", 4, "5", true];
+
+// console.log(lista);
+// console.log(lista2);
+
+// function filtrarArray(elemento){
+//     return (typeof elemento === "number");
+// }
+
+// lista2.filter(filtrarArray)
+
+
+// lista2.filter(function (elemento){
+//     return (typeof elemento === "number");
+// })
+
+// function hello(func){
+//     func();
+// }
+
+// function world(){
+//     console.log("Hello World")
+// }
+
+// hello(world);
+
+
+
+// Boolean 
+
+// let verdadeiro = true;
+// let falso = false;
+
+// console.log(0 == false);
+// // console.log(1 == true);
+// console.log([] == false);
+// console.log("" == false);
+// console.log(null == false);
+// console.log(undefined == false);
+// console.log(falso);
