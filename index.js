@@ -70,3 +70,7 @@ let bollF = false;
 
 console.log(0 == boolT);
 console.log(1 == bollF);
+console.log({} == true);
+console.log("" == true);
+console.log(null == true);
+console.log(undefined == true);
