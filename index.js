@@ -1,7 +1,19 @@
 //var, let e const 
 
-x = 10;
+const x = 10;
+let   y = 20;
 
-var x;
 
+function hello(){
+    let y = 5;
+    console.log(y);
+    if(y==5)
+    {
+        let y=10;
+        console.log(y);
+    }
+}
+
+hello();
 console.log(x);
+console.log(y);
