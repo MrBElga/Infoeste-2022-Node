@@ -58,4 +58,15 @@
 
 //Arrays
 
-let
+// let Array  = [1,2,3,4,5];
+// let Array2 = ["teste1",6,"teste2",7,"teste3",true];
+
+// console.log(Array);
+// console.log(Array2);
+
+//boolean
+let boolT = true;
+let bollF = false;
+
+console.log(0 == boolT);
+console.log(1 == bollF);
