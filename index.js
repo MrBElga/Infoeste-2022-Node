@@ -82,6 +82,19 @@
 
 //Array JSON
 
-
+let ArrayJson = [
+    {
+        Nome: "Kleber",
+        Idade: 69
+    },
+    {
+        Nome: "João",
+        Idade: 35
+    },
+    {
+        Nome: "Cris",
+        Idade: 15
+    }
+];
 
 //map
