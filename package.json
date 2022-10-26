@@ -1,5 +1,5 @@
 {
-  "name": "curso2",
+  "name": "curso-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrBElga/Infoeste-CursoNode.git"
+    "url": "git+https://github.com/rogerioalmeidaa/node-js.git"
   },
-  "author": "MrBElga",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MrBElga/Infoeste-CursoNode/issues"
+    "url": "https://github.com/rogerioalmeidaa/node-js/issues"
   },
-  "homepage": "https://github.com/MrBElga/Infoeste-CursoNode#readme",
+  "homepage": "https://github.com/rogerioalmeidaa/node-js#readme",
   "dependencies": {
-    "moment-timezone": "^0.5.38",
-    "nodemon": "^2.0.20"
+    "axios": "^1.1.3",
+    "moment-timezone": "^0.5.38"
   }
 }
